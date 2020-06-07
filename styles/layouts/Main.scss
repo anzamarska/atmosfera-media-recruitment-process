@@ -1,0 +1,198 @@
+@import "../global.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant", serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 10vw;
+}
+
+p {
+  color: #3e3524;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+#ourStory,
+#team,
+#films {
+  position: relative;
+  top: 100vh;
+}
+
+#banner {
+  height: max-content;
+  position: fixed;
+  background-color: black;
+  z-index: -1;
+  width: 100vw;
+}
+
+#videoBG {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+#banner h4 {
+  margin-top: 0px;
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 1.1rem;
+  line-height: 130vh;
+  line-break: auto;
+  color: white;
+  z-index: 1;
+  position: relative;
+}
+
+#ourStory {
+  padding: 20vh 20vh 10vh 20vh;
+  min-height: 70vh;
+}
+
+#ourStory p:nth-child(1) {
+  font-family: "Cardo";
+  text-shadow: 2px 2px 7px gray;
+  width: 36%;
+  display: inline-block;
+  font-size: 7rem;
+  vertical-align: middle;
+  height: 122px;
+  line-height: 4rem;
+}
+
+#ourStory p:nth-child(2) {
+  width: 60%;
+  display: inline-block;
+  text-align: justify;
+}
+
+#ourStory p:nth-child(3) {
+  margin-top: 10vh;
+  font-family: "Cardo";
+  text-align: center;
+}
+
+.banner h2 {
+  font-family: "Cormorant", serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#films {
+  padding-top: 10vh;
+}
+
+video {
+  width: 33%;
+}
+
+#team {
+  background-color: #edecec;
+}
+
+.team-item {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding: 10vh 5vw 0 5vh;
+}
+
+.team-image {
+  height: 20vw;
+  width: 20vw;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(173, 172, 172);
+  background-image: linear-gradient(to bottom, #fff, rgba(253, 236, 236, 0.88));
+  display: inherit;
+  background-size: contain;
+}
+
+.team-image {
+  background-image: url(../../img/luce-arena-logo.png);
+}
+
+.team-image.name1 {
+  background-image: url(../../img/team/sabina.jpg);
+}
+
+.team-image.name2 {
+  background-image: url(../../img/team/adam.png);
+}
+
+.team-image.name3 {
+  background-image: url(../../img/team/wiktor.jpg);
+}
+
+.team-image.name4 {
+  background-image: url(../../img/team/wojtek.png);
+}
+
+#team .team-item li {
+  margin-top: 20px;
+  font-size: 4.2vh;
+  font-family: "Cardo", serif;
+  color: #3e3524;
+  margin-bottom: 10px;
+  text-align: center;
+  list-style: none;
+}
+
+.team-names {
+  display: inline-block;
+  width: 28vw;
+  height: 20vw;
+  transform: translateY(-6.4vw);
+  vertical-align: middle;
+}
+
+#team .team-item p {
+  font-family: "Cormorant", serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  width: 20vw;
+  height: 20vw;
+  transform: translateY(-5vw);
+  vertical-align: middle;
+}
+
+.team-descriptions {
+  display: inline;
+}
+
+#team .team-descriptions p:nth-child(1).team-title {
+  display: inline-block;
+  font-size: 4vh;
+  line-height: 4.8vh;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#team .team-descriptions p:nth-child(2).name1 {
+  display: inline-block;
+}
+
+#team .team-descriptions p:nth-child(3).name2 {
+  display: inline-block;
+}
+
+#team .team-descriptions p:nth-child(4).name3 {
+  display: inline-block;
+}
+
+#team .team-descriptions p:nth-child(5).name4 {
+  display: inline-block;
+}

@@ -1,0 +1,18 @@
+@import "./variable.scss";
+@import "./normalize.scss";
+@import "./breakpoints.scss";
+@import url("https://fonts.googleapis.com/css?family=Cormorant|Montserrat|Montserrat+Subrayada|Cardo:400i&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: ($base-size * 1.3);
+  overflow-y: scroll;
+  max-width: 100vw;
+}

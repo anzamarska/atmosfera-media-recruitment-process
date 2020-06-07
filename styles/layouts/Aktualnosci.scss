@@ -1,0 +1,52 @@
+#news {
+  position: relative;
+  top: 14vw;
+}
+
+.news-container {
+  width: 60%;
+  margin: 0 20vw;
+  padding-bottom: 10vh;
+}
+
+.content span {
+  letter-spacing: 3.75px;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.blog-item {
+  margin-bottom: 20vh;
+  position: relative;
+}
+
+.blog-item img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
+.blog-item .date {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  padding: 10px 16px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  background-color: #edecec;
+}
+
+.content h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+.text-button a {
+  text-decoration: none;
+  right: 0;
+  position: absolute;
+  padding-top: 2rem;
+}

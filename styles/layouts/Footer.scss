@@ -1,0 +1,47 @@
+footer {
+  background-image: linear-gradient(to bottom, #fff, rgba(252, 230, 230, 0.88));
+  text-align: center;
+  padding-top: 10vh;
+  // top: 100vh;
+  position: relative;
+  // @include media("<=phone") {
+  //   width: 90vw;
+  //   margin: 0 auto;
+  // }
+}
+
+footer p {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1.6rem;
+  width: 100%;
+}
+
+.col-2 {
+  width: 36%;
+  display: inline-block;
+}
+
+.col-2 p {
+  width: 50%;
+}
+
+.footerText {
+  letter-spacing: 3.75px;
+  font-size: 11px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.socialIcon {
+  height: 1.6rem;
+  display: inline-block;
+  margin-left: 0.5rem;
+  opacity: 0.5;
+}
+
+.social {
+  display: inline;
+}

@@ -1,0 +1,47 @@
+section {
+  margin-bottom: 10vh;
+}
+
+.container-contact {
+  width: 80%;
+  margin: 20vh 10vw 0 10vw;
+  padding: 10vh 8vw 0 8vw;
+}
+
+#contact {
+  padding: 0 5vw;
+}
+
+h2 {
+  margin: 3rem;
+}
+
+#form-submit {
+  //   width: 16vw;
+  display: inline-block;
+  background-color: gray;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  right: 22vw;
+  padding: 12px 20px;
+  position: absolute;
+  text-decoration: none;
+  letter-spacing: 3.5px;
+  border: none;
+  margin: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  background-color: #edecec;
+}
+
+#map {
+  padding-top: 10vh;
+}

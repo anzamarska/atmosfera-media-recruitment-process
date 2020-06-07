@@ -1,0 +1,57 @@
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 20px 100px;
+  z-index: 1000;
+  box-shadow: 0 3px 10px rgba(214, 214, 214, 0.25);
+}
+
+header.sticky {
+  padding: 5px 100px;
+  background-color: #edecec;
+}
+// .hamburger-button {
+//   left: 0;
+//   position: absolute;
+//   margin: 10px;
+// }
+
+.logo {
+  max-height: 6vh;
+  margin: 2vh;
+  position: relative;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.6s;
+  font-size: 0.9rem;
+}
+
+header.sticky ul li a {
+  color: #000;
+}
