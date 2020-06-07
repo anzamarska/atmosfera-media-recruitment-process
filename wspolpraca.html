@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fundacja Luce Arena</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300;1,400&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/layouts/Main.scss" />
+    <link rel="stylesheet" href="styles/layouts/Wspolpraca.scss" />
+    <link rel="stylesheet" href="styles/layouts/Header.scss" />
+    <link rel="stylesheet" href="styles/layouts/Footer.scss" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="img/logo_luce_cien.png" alt="Logo Luce Arena"
+      /></a>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">home</a></li>
+        <li><a href="aktualnosci.html">aktualności</a></li>
+        <li><a href="wspolpraca.html">współpraca/cennik</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
+      </ul>
+    </header>
+
+    <div class="container">
+      <p>Ta strona jest jeszcze w budowie. Prosimy o trochę cierpliwości.</p>
+    </div>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>

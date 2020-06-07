@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fundacja Luce Arena</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300;1,400&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/layouts/Main.scss" />
+    <link rel="stylesheet" href="styles/layouts/Kontakt.scss" />
+    <link rel="stylesheet" href="styles/layouts/Header.scss" />
+    <link rel="stylesheet" href="styles/layouts/Footer.scss" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="img/logo_luce_cien.png" alt="Logo Luce Arena"
+      /></a>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">home</a></li>
+        <li><a href="aktualnosci.html">aktualności</a></li>
+        <li><a href="wspolpraca.html">współpraca/cennik</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
+      </ul>
+    </header>
+
+    <div class="container-contact">
+      <section>
+        <h1>Znajdziesz nas tutaj:</h1>
+        <p>
+          43-346 Bielsko-Biała, Legionów 26
+        </p>
+        <h2>
+          W celu skontaktowania się z nami zapraszamy do wypełnienia formularza:
+        </h2>
+
+        <form id="contact" action="" method="post">
+          <fieldset>
+            <input
+              name="name"
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Imię"
+              required=""
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              name="email"
+              type="text"
+              class="form-control"
+              id="email"
+              placeholder="E-mail"
+              required=""
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              name="phone"
+              type="text"
+              class="form-control"
+              id="phone"
+              placeholder="Telefon"
+              required=""
+            />
+          </fieldset>
+          <fieldset>
+            <textarea
+              name="message"
+              rows="6"
+              class="form-control"
+              id="message"
+              placeholder="Wiadomość"
+              required=""
+            ></textarea>
+          </fieldset>
+          <button type="submit" id="form-submit">
+            Wyślij wiadomość
+          </button>
+        </form>
+      </section>
+
+      <section id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.8421464615135!2d19.052726315288385!3d49.8266319793942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47169f5e2b279347%3A0x33d250ea8da3925!2sLegion%C3%B3w%2026%2C%2043-346%20Bielsko-Bia%C5%82a!5e0!3m2!1spl!2spl!4v1591396048909!5m2!1spl!2spl"
+          width="100%"
+          height="450"
+          frameborder="0"
+          style="border: 0;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <p>Dziękujemy za odwiedzenie naszej strony, zapraszamy do kontaktu</p>
+        <div class="col-2">
+          <p>Recepcja, informacja, rezerwacja</p>
+          <p>+48 795 520 177</p>
+        </div>
+        <div class="col-2">
+          <div className="social">
+            <p>facebook</p>
+            <a
+              aria-label="fb"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/arenaLUCE/"
+            >
+              <img
+                class="socialIcon"
+                src="./img/footer/fb.svg"
+                alt="luce facebook"
+              />
+            </a>
+            <p>you tube</p>
+            <a
+              aria-label="youtube"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/channel/UCnzrF9EFrkDp2qBHF4lJFkg"
+            >
+              <img
+                class="socialIcon"
+                src="./img/footer/yt.svg"
+                alt="luce youtube"
+              />
+            </a>
+            <p>instagram</p>
+            <a
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/luce_bielsko/"
+            >
+              <img
+                class="socialIcon"
+                src="./img/footer/inst.svg"
+                alt="luce instagram"
+              />
+            </a>
+          </div>
+        </div>
+        <p class="footerText">
+          &copy; handcrafted for the recruitment process carried out by
+          AtmosferaMedia ~ Ann Zam
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
