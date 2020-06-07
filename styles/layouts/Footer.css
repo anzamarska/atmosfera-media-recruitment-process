@@ -2,12 +2,7 @@ footer {
   background-image: linear-gradient(to bottom, #fff, rgba(252, 230, 230, 0.88));
   text-align: center;
   padding-top: 10vh;
-  // top: 100vh;
   position: relative;
-  // @include media("<=phone") {
-  //   width: 90vw;
-  //   margin: 0 auto;
-  // }
 }
 
 footer p {
